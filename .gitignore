@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Entornos y variables secretas
+.env
+.env.local
+.env.*.local
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python / Data / Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.ipynb_checkpoints/
+
+# Node / Angular / JS / Web
+node_modules/
+dist/
+build/
+.angular/
+npm-debug.log*
+yarn-debug.log*
+
+# PHP / Laravel
+/vendor/
+/public/hot
+/public/storage
+/storage/*.key
+
+# Java
+*.class
+*.jar
+target/
+
+# Logs y temporales
+*.log
+temp/
+tmp/
